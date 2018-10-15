@@ -1,0 +1,17 @@
+body{
+	font-family: calibri, serif;
+	font-size: 18px;
+	background-color:rgba(150,150,150,0.2);
+}
+h1{
+	margin-left: auto;
+    margin-right: auto;
+     width: 15em;
+     color: rgb(204,136,0);
+}
+
+h2{
+	color: rgb(255,102,25);
+	font-size: 30px;
+}
+ 
