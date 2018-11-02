@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+}
+
+/* centrer le formulaire sur la page */
+form{
+	margin: 0 auto;
+  width: 400px;
+
+  padding: 1em;
+  border: 1px solid #332200 ;
+  border-radius: 1em;
+}
+
+
+label {
+  /*   étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input {
+   
+  font: 1em sans-serif;
+ }
+ .bouton{
+ 	     padding-left: 90px;
+ 	     margin-left: .38em;
+ }
+
+ div label{
+ 	text-align: left;
+ }
+ #error{
+ 	margin: 0 auto;
+    width: 400px;
+
+ 	background-color: #FF80EA;
+ 	padding: 10px;
+ 	border: 1px black;
+ }
+ #resultat{
+ 	margin: 0 auto;
+    width: 400px;
+
+ 	background-color: green;
+ 	padding: 10px;
+ 	border: 1px black;
+ 	text-decoration: white;
+
+ 	 }
