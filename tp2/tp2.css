@@ -36,7 +36,7 @@ input {
  div label{
  	text-align: left;
  }
- 
+
  #error{
  	margin: 0 auto;
     width: 400px;
@@ -53,5 +53,4 @@ input {
  	padding: 10px;
  	border: 1px black;
  	text-decoration: white;
-
  	 }

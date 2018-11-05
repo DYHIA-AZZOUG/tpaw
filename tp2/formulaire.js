@@ -8,7 +8,6 @@ function validation ( )
          document.getElementById("error").removeAttribute("hidden");
     }  
 
-     
      else if(document.getElementById("prenom").value.length < 5 ) { 
         document.getElementById("error").innerHTML = "Le prenom doit contenir au moins 5 caractères !";
          document.getElementById("error").removeAttribute("hidden");
