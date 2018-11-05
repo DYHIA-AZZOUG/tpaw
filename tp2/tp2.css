@@ -10,23 +10,27 @@ form{
   padding: 1em;
   border: 1px solid #332200 ;
   border-radius: 1em;
+  background-color:rgb(226, 223, 223);
 }
 
 
 label {
   /*   étiquettes ont même taille et sont correctement alignées */
   display: inline-block;
-  width: 90px;
+  width: 130px;
   text-align: right;
 }
+ 
 
 input {
    
   font: 1em sans-serif;
+  width: 130px;
+  background-color: rgb(250, 230, 206);
  }
  .bouton{
  	     padding-left: 90px;
- 	     margin-left: .38em;
+ 	     margin-left: 2.8em;
  }
 
  div label{
@@ -36,7 +40,7 @@ input {
  	margin: 0 auto;
     width: 400px;
 
- 	background-color: #FF80EA;
+ 	background-color: rgb(252, 135, 232);
  	padding: 10px;
  	border: 1px black;
  }
@@ -44,7 +48,7 @@ input {
  	margin: 0 auto;
     width: 400px;
 
- 	background-color: green;
+ 	background-color: rgb(4, 165, 4);
  	padding: 10px;
  	border: 1px black;
  	text-decoration: white;
