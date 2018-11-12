@@ -16,8 +16,7 @@ $( document ).ready(function() {
                 color : "green"
             });
             }
-       });
-              
+       });        
        $("#envoyer").on("click", function (e) {
         e.preventDefault();
         var isError = false;
