@@ -31,8 +31,7 @@ $( document ).ready(function() {
             $('#Modal').modal("show");
         }else{
             $(".modal-title2").text("Bienvenue " + document.querySelector("#prenom").value);
-            $(".modal-body").html( "Vous etes nés le "+ document.querySelector("#date").value+" 
-            </br>et vous habitez à:"+'</br><img src="https://maps.googleapis.com/maps/api/staticmap?markers='+document.querySelector("#adresse").value+'&zoom=10&size=400x300&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"/>');
+            $(".modal-body").html( "Vous etes nés le "+ document.querySelector("#date").value+" </br>et vous habitez à:"+'</br><img src="https://maps.googleapis.com/maps/api/staticmap?markers='+document.querySelector("#adresse").value+'&zoom=10&size=400x300&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"/>');
             $('#myModal').modal("show");
         }
          
