@@ -15,9 +15,6 @@ $(document).ready(function(e) {
     
   });
 
-
-
-
   $("#valide").on("click",function store(event) { 
     event.preventDefault();
     
@@ -29,7 +26,6 @@ $(document).ready(function(e) {
         
         if($("#name").val() !== "" && $("#firstname").val() !== "" && $("#birth").val() !== "" && $("#adresse").val() !== "" && $("#mail").val() !== "" ){
         
-        //stocker les valeurs saisie dans le navigateur
         localStorage.setItem("name", inputNom.value);
         localStorage.setItem("firstname", inputPrenom.value);
         localStorage.setItem("birth", inputDn.value);
@@ -39,10 +35,7 @@ $(document).ready(function(e) {
        $('#success').addClass("alert alert-success").text("Bravo! le formulaire est sauvegardé.");
 
       $("#table").show();
-      $("#liste_des_contacts").show();
-      
-       
-       // ajout des valeurs saisie dans le tableau
+      $("#liste_des_contacts").show()
        
        document.querySelector("table tbody").innerHTML = document.querySelector("table tbody")
        .innerHTML +'<tr><td>'+localStorage.getItem("name")+'</td><td>'+localStorage.getItem("firstname") +'</td><td>'+localStorage.getItem("birth")+'</td><td><a href="https://maps.google.com/maps?q=' +localStorage.getItem("adresse")+'">'+localStorage.getItem("adresse") +'</a></td><td><a href=mailto:>'+localStorage.getItem("mail")+'</a></td>';
